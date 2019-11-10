@@ -202,95 +202,204 @@
 /* END OF CONTENT */
 
 
-/* DROPDOWN */
+/* ABOUT US STYLING */
 
-/* .btndown {
-    background-color: #3bb09f;
-    color: #fff;
-    padding: 16px;
-    font-size: 14pt;
-    border: none;
-    cursor: pointer;
+/* ABOUT US NAVBAR */
+
+.navAbout {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
 }
 
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.wrapdown {
-    display: none;
-    position: absolute;
-    background-color: #f9f9;
-    min-width: 117px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-}
-
-.wrapdown a {
-    color: #0000;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-.wrapdown a:hover {
-    background-color: #f1f1f1;
-}
-
-.dropdown:hover .wrapdown {
-    display: block;
-}
-
-.dropdown:hover .btndown {
-    background-color: #4cbf50;
-}
-
-.left {
-    float: left;
-}
-
-.right {
+.navAbout ul {
     float: right;
+    margin-left: 40px;
 }
 
-.wrapleft {
-    left: 0;
+.navAbout ul li {
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
-.wrapright {
-    right: 0;
-} */
-
-/* END OF DROPDOWN */
-
-
-/* NAV COLLAPSE */
-
-/* #main .navNav {
-    text-align: right !important;
-    height: 35px;
-    line-height: 80px;
+.navAbout ul li a {
+    text-decoration: none !important;
+    color: black !important;
+    padding: 10px;
+    margin-left: 10px !important;
 }
 
-label {
-    margin: 0 40px 0 0;
-    font-size: 26px;
-    line-height: 80px;
-    display: none !important;
+.navAbout img {
+    height: 50px;
+    width: 180px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-#toggle {
+.navAbout > .nav-btn {
     display: none;
 }
 
-@media only screen and (max-width: 800px) {
-    label {
-        display: block;
-    }
-} */
+.navAbout > #nav-check {
+    display: none;
+}
 
-/* END OF NAV COLLAPSE */
+.navContainer {
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.4);
+}
+
+/* END NAVBAR */
 
 
+/* ABOUT HEADER */ 
 
- 
+.aboutHeader {
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.header hr {
+    border: 1.2px solid #f39d1a !important;
+    width: 100px;
+    margin-left: 40px;
+}
+
+.headerContent h2 {
+    margin-left: 20px !important;
+    color: #190d4e !important;
+    padding: 20px;
+    float: right;
+    margin-left: 40px;
+}
+
+/* END ABOUT HEADER */
+
+
+/* BANNER IMAGE */
+
+.bannerImage img {
+    width: 100%; 
+    height: 300px; 
+    object-fit: cover; 
+    margin-bottom: 35px;
+}
+
+/* END BANNER IMAGE */
+
+
+/* CONTENT AREA */
+
+.contentArea {
+    font-size: 15px;
+}
+
+.headerOne p {
+    color: #f39d1a;
+}
+
+.headerOne hr {
+    border: 1.2px solid #190d4e;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.headerTwo {
+    margin-bottom: 10px;
+}
+
+.headerTwo hr {
+    border: 1.2px solid #f39d1a !important;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.headerone p {
+    color: #f39d1a;
+}
+
+.headerone hr {
+    border: 1.2px solid #f39d1a;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.contentImage img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+}
+
+.headerThree p {
+    color: #f39d1a;
+}
+
+.headerThree hr {
+    border: 1px solid #f39d1a;
+    width: 50px;
+}
+
+.headerContainer {
+    margin-bottom: 30px;
+}
+
+.imageContainer {
+    margin-bottom: 30px;
+}
+
+.teamContainer {
+    margin-bottom: 30px;
+}
+
+/* END CONTENT AREA */
+
+
+/* FOOTER AREA */
+
+.footerContainer {
+    background-color: black;
+    height: 60px;
+}
+
+.footerContainer a {
+    text-decoration: none !important;
+}
+
+.footerContainer a p {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footerMain {
+    background-color: rgb(4, 4, 121);
+}
+
+.footerContent {
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: white;
+}
+
+.footerLinks ul {
+    float: right;
+    margin-left: 40px;
+}
+
+.footerLinks ul li {
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.footerLinks ul li a {
+    text-decoration: none !important;
+    color: white !important;
+    padding: 10px;
+    line-height: 80px;
+}
+
+/* END FOOTER AREA */

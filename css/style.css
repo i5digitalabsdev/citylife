@@ -1,15 +1,26 @@
 /* GENERAL STYLING */
 
-* {
+@font-face {
+    font-family: "avenir";
+    src: url("../fonts/AvenirLTStd-Book.otf");
+    }
+
+/* body{
+    font-family: 'avenir', sans-serif;
+} */
+
+body {
     margin: 0;
     padding: 0;
-    font-family: verdana;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-family: 'avenir', sans-serif;
+
 }
 
 #main {
     width: 100%;
     height: 100vh;
-    background-image: url(.././images/backgroundHome.jpg);
+    background-image: url(.././images/bg-home.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -20,129 +31,68 @@
 
 /* NAVBAR */
 
-.nav {
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
+.top-container{
+    padding: 25px 0 25px 0;
 }
 
-.nav ul {
-    float: right;
-    margin-left: 40px;
+.nav{
+    padding: 10px 0 10px 0;
 }
 
 .nav ul li {
     list-style-type: none;
     display: inline-block;
-    transition: 0.8s all;
     text-transform: uppercase;
-    font-size: 15px;
 }
 
 .nav ul li a {
     text-decoration: none !important;
     color: #fff !important;
-    padding: 20px;
+    padding: 5px;
+    font-weight:  lighter;
+    font-size: 1em;
     margin-left: 20px !important;
+    transition: .3s;
 }
 
-.nav img {
-    height: 60px;
-    width: 200px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.nav ul li a:hover {
+    color: rgba(250, 170, 59, 0.788) !important;
 }
 
-.nav > .nav-btn {
-    display: none;
+
+.logo-container img {
+    width: 80%;
 }
 
-.nav > #nav-check {
-    display: none;
-}
 
-@media (max-width: 800px) {
-    .nav > .nav-btn {
-        display: inline-block;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
 
-    .nav img {
-        height: 30px;
-        width: 100px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 20px;
-    }
-
-    .nav > .nav-btn > label {
-        display: inline-block;
-        width: 50px;
-        height: 50px;
-        padding: 13px;
-    }
-
-    .nav > .nav-btn > label:hover, nav #nav-check:checked ~ .nav-btn > label {
-        background-color: rgba(0, 0, 0, 0.3);
-    }
-
-    .nav > .nav-btn > label > span {
-        display: block;
-        width: 25px;
-        height: 10px;
-        border-top: 2px solid #f39d1a;
-    }
-
-    .nav ul li {
-        position: absolute;
-        display: block;
-        width: 100%;
-        background-color: #333;
-        height: 0px;
-        transition: all 0.3s ease-in;
-        overflow-y: hidden;
-        top: 50px;
-        left: 0px;
-    }
-
-    .nav > ul > li > a {
-        display: block !important;
-        width: 100%;
-    }
-
-    .nav > #nav-check:not(:checked) ~ ul li {
-        height: 0px;
-    }
-
-    .nav #nav-check:checked ~ ul li {
-        height: calc(100vh - 50px);
-        overflow-y: auto;
-    }
-}
 
 /* END OF NAVBAR */
 
 
 /* CONTENT */
 
+.content{
+    position: absolute;
+    padding-top: 0%;
+    /* background: red; */
+    top: 0;
+
+}
+
 .content h2 {
     text-align: center;
-    padding-top: 13%;
-    letter-spacing: 0.1em;
-    font-size: 35px;
+    font-size: 3.3em;
     color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
 }
 
-.content h2 u {
-    text-decoration: underline #f39d1a;
-}
 
 .content hr {
-    border: 1.5px solid #f39d1a !important;
-    width: 150px;
-    margin-left: 45%;
+    border: 2px solid #f39d1a !important;
+    width: 14%;
+    margin-left: 42%;
 }
 
 .assets-links {
@@ -150,7 +100,46 @@
     bottom: 0px;
     width: 100%;
     color: white;
-    background: #190d4e;
+    background: rgba(13, 11, 133, 0.582);
+    /* opacity: 0.5; */
+}
+
+.assets-links-upper{
+    position: absolute;
+    bottom: 90px;
+    width: 100%;
+    color: white;
+    background: transparent;
+}
+
+.dropdown-option{
+    background: white;
+    padding: 0 !important;
+    margin-bottom: 0 !important;
+    display: none;
+    margin-left: -10px;
+    transition: .3s;
+}
+
+.dropdown-option ul{
+    list-style: none;
+    padding: 0 !important;
+}
+
+.dropdown-option ul li{
+    display: block;
+
+}
+
+.dropdown-option ul li a{
+    display: block;
+    padding: 10px 10px 5px 10px;
+    color: rgb(99, 96, 96);
+    /* border-top: 1px solid rgb(199, 197, 197); */
+    text-decoration: none;
+    /* font-size: .8em; */
+    font-weight: lighter;
+
 }
 
 .assets-links img {
@@ -158,19 +147,38 @@
     margin-bottom: 0px;
 }
 
-.assets-links span {
-    padding: 10px;
+.asset-text{
+    padding-top:11% ;
+    font-weight: lighter;
 }
 
 .propertyDev img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin-bottom: 20px;
     margin-left: 20px;
 }
 
 .propertyDev {
-    border-right: 1px solid white !important;
+    cursor: pointer;
+    border-right: 1px solid rgba(255, 255, 255, 0.377) !important;
+    transition: .3s;
+}
+
+.propertyDev:hover{
+    background: rgba(250, 170, 59, 0.788);
+}
+
+.propertyDev:hover .dropdown-option{
+    display: block;
+}
+
+.rentalMgt:hover{
+    background: rgba(250, 170, 59, 0.788);
+}
+
+.propertyMgt:hover{
+    background: rgba(250, 170, 59, 0.788);
 }
 
 .propertyDev:last-child{
@@ -178,14 +186,21 @@
 }
 
 .rentalMgt img {
-    height: 50px;
-    width: 50px;  
+    height: 40px;
+    width: 40px;
     margin-bottom: 20px;
     margin-left: 20px;  
 }
 
 .rentalMgt {
-    border-right: 1px solid white !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.377) !important;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.propertyMgt{
+    cursor: pointer;
+    transition: .3s;
 }
 
 .rentalMgt:last-child{
@@ -193,8 +208,8 @@
 }
 
 .propertyMgt img {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     margin-bottom: 20px;
     margin-left: 20px;
 }

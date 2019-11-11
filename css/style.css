@@ -246,49 +246,42 @@ body {
 
 /* ABOUT US NAVBAR */
 
-.navAbout {
-    width: 100%;
-    height: 80px;
-    line-height: 80px;
+
+.top-container2{
+    padding: 25px 0 20px 0;
 }
 
-.navAbout ul {
-    float: right;
-    margin-left: 40px;
+.navAbout ul{
+    margin-top: 10px;
 }
+
 
 .navAbout ul li {
     list-style-type: none;
     display: inline-block;
-    transition: 0.8s all;
     text-transform: uppercase;
-    font-size: 15px;
 }
 
 .navAbout ul li a {
-    text-decoration: none !important;
-    color: black !important;
-    padding: 10px;
-    margin-left: 10px !important;
+    color: rgb(48, 48, 48) !important;
+    padding: 5px;
+    font-family: 'gothamLight';
+    font-weight:  lighter;
+    font-size: .8em;
+    margin-left: 20px !important;
+    text-decoration: none;
+    transition: .3s;
 }
 
-.navAbout img {
-    height: 50px;
-    width: 180px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.navAbout  ul li a:hover {
+    color: rgba(250, 170, 59, 0.788) !important;
 }
 
-.navAbout > .nav-btn {
-    display: none;
-}
 
-.navAbout > #nav-check {
-    display: none;
-}
+
 
 .navContainer {
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.219);
 }
 
 /* END NAVBAR */

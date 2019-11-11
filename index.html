@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,400,600,700&display=swap" rel="stylesheet">
 
     
 
@@ -30,10 +29,14 @@
                     <a href="index.html"><img src="images/citylife2.png" alt="Logo"></a>
                 </div>  
                 
-                <span class="menu-icon hidden-md hidden-lg" id="menu-icon">
-                        <button class="btn btn-sm"><i class="fa fa-ellipsis-h fa-2x"></i></button>
-                        
-                      </span>
+                <!-- <span class="menu-icon hidden-md hidden-lg" id="menu-icon">
+                        <span class="btn btn-sm"><i class="fa fa-ellipsis-h fa-2x"></i></span>
+                </span> -->
+                <div class="menu-icon hidden-md hidden-lg" id="menu-icon"  onclick="animateMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
 
                 <div class="col-md-10 nav" id="nav-bar">
                     <ul class="pull-right">

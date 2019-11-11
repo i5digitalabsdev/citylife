@@ -290,22 +290,32 @@ body {
 /* ABOUT HEADER */ 
 
 .aboutHeader {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     margin-bottom: 10px;
 }
 
+.header{
+    padding: 30px 0 0 0;
+}
+
 .header hr {
-    border: 1.2px solid #f39d1a !important;
+    border: 1px solid #f39d1a !important;
     width: 100px;
-    margin-left: 40px;
+    /* margin-top: 20px; */
+    /* margin-left: 40px; */
+
+}
+
+.headerContent{
+    padding: 20px 0 0 0;
 }
 
 .headerContent h2 {
-    margin-left: 20px !important;
-    color: #190d4e !important;
-    padding: 20px;
+    /* margin-left: 20px !important; */
+    color: #0A0A79 !important;
+    padding: 10px;
     float: right;
-    margin-left: 40px;
+    font-family: 'gothamMedium';
 }
 
 /* END ABOUT HEADER */
@@ -313,9 +323,17 @@ body {
 
 /* BANNER IMAGE */
 
+.bannerImage{
+    background-image: url('../images/aboutBanner.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
 .bannerImage img {
     width: 100%; 
-    height: 300px; 
+    height: 400px; 
     object-fit: cover; 
     margin-bottom: 35px;
 }
@@ -326,65 +344,30 @@ body {
 /* CONTENT AREA */
 
 .contentArea {
-    font-size: 15px;
+    padding: 5% 0 5% 0;
+    font-size: .9em;
 }
 
-.headerOne p {
+.contentArea h4{
     color: #f39d1a;
+    font-size: 1.2em;
+    font-weight: bold;
+
 }
 
-.headerOne hr {
-    border: 1.2px solid #190d4e;
+.contentArea hr{
+    border: 1px solid #f39d1a !important;
     width: 50px;
+    text-align: left;
     margin-left: 5px;
 }
 
-.headerTwo {
-    margin-bottom: 10px;
+.contentArea p{
+    color: rgb(71, 71, 71);
+    font-size: 1.2em;
+    /* padding-top:25px; */
 }
 
-.headerTwo hr {
-    border: 1.2px solid #f39d1a !important;
-    width: 50px;
-    margin-left: 5px;
-}
-
-.headerone p {
-    color: #f39d1a;
-}
-
-.headerone hr {
-    border: 1.2px solid #f39d1a;
-    width: 50px;
-    margin-left: 5px;
-}
-
-.contentImage img {
-    width: 100%; 
-    height: 100%; 
-    object-fit: cover;
-}
-
-.headerThree p {
-    color: #f39d1a;
-}
-
-.headerThree hr {
-    border: 1px solid #f39d1a;
-    width: 50px;
-}
-
-.headerContainer {
-    margin-bottom: 30px;
-}
-
-.imageContainer {
-    margin-bottom: 30px;
-}
-
-.teamContainer {
-    margin-bottom: 30px;
-}
 
 /* END CONTENT AREA */
 

@@ -40,7 +40,6 @@ body {
     font-family: 'gotham' !important;
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Nunito', sans-serif !important; */
-
 }
 
 #main {
@@ -57,11 +56,11 @@ body {
 
 /* NAVBAR */
 
-.top-container{
+.top-container {
     padding: 25px 0 25px 0;
 }
 
-.nav{
+.nav {
     padding: 10px 0 10px 0;
 }
 
@@ -91,13 +90,12 @@ body {
     width: 80%;
 }
 
-
 /* END OF NAVBAR */
 
 
 /* CONTENT */
 
-.content{
+.content {
     position: absolute;
     top: 33%;
     left:5%;
@@ -112,7 +110,6 @@ body {
     font-family: 'gothamMedium';
     font-weight: bold;
 }
-
 
 .content hr {
     border: 2px solid #f39d1a !important;
@@ -129,7 +126,7 @@ body {
     /* opacity: 0.5; */
 }
 
-.assets-links-upper{
+.assets-links-upper {
     position: absolute;
     bottom: 90px;
     width: 100%;
@@ -137,7 +134,7 @@ body {
     background: transparent;
 }
 
-.dropdown-option{
+.dropdown-option {
     background: white;
     padding: 0 !important;
     margin-bottom: 0 !important;
@@ -146,17 +143,17 @@ body {
     transition: .3s;
 }
 
-.dropdown-option ul{
+.dropdown-option ul {
     list-style: none;
     padding: 0 !important;
 }
 
-.dropdown-option ul li{
+.dropdown-option ul li {
     display: block;
 
 }
 
-.dropdown-option ul li a{
+.dropdown-option ul li a {
     display: block;
     padding: 10px 10px 5px 10px;
     color: rgb(99, 96, 96);
@@ -164,7 +161,6 @@ body {
     text-decoration: none;
     /* font-size: .8em; */
     font-weight: lighter;
-
 }
 
 .assets-links img {
@@ -172,7 +168,7 @@ body {
     margin-bottom: 0px;
 }
 
-.asset-text{
+.asset-text {
     padding-top:11% ;
     font-weight: lighter;
 }
@@ -190,23 +186,23 @@ body {
     transition: .3s;
 }
 
-.propertyDev:hover{
+.propertyDev:hover {
     background: rgba(250, 170, 59, 0.788);
 }
 
-.propertyDev:hover .dropdown-option{
+.propertyDev:hover .dropdown-option {
     display: block;
 }
 
-.rentalMgt:hover{
+.rentalMgt:hover {
     background: rgba(250, 170, 59, 0.788);
 }
 
-.propertyMgt:hover{
+.propertyMgt:hover {
     background: rgba(250, 170, 59, 0.788);
 }
 
-.propertyDev:last-child{
+.propertyDev:last-child {
     border-right: none !important;
 }
 
@@ -223,12 +219,12 @@ body {
     transition: .3s;
 }
 
-.propertyMgt{
+.propertyMgt {
     cursor: pointer;
     transition: .3s;
 }
 
-.rentalMgt:last-child{
+.rentalMgt:last-child {
     border-right: none !important;
 }
 
@@ -247,14 +243,13 @@ body {
 /* ABOUT US NAVBAR */
 
 
-.top-container2{
+.top-container2 {
     padding: 25px 0 20px 0;
 }
 
-.navAbout ul{
+.navAbout ul {
     margin-top: 10px;
 }
-
 
 .navAbout ul li {
     list-style-type: none;
@@ -277,9 +272,6 @@ body {
     color: rgba(250, 170, 59, 0.788) !important;
 }
 
-
-
-
 .navContainer {
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.219);
 }
@@ -294,7 +286,7 @@ body {
     margin-bottom: 10px;
 }
 
-.header{
+.header {
     padding: 30px 0 0 0;
 }
 
@@ -303,7 +295,6 @@ body {
     width: 100px;
     /* margin-top: 20px; */
     /* margin-left: 40px; */
-
 }
 
 .headerContent{
@@ -323,7 +314,7 @@ body {
 
 /* BANNER IMAGE */
 
-.bannerImage{
+.bannerImage {
     background-image: url('../images/aboutBanner.jpg');
     background-attachment: fixed;
     background-position: center;
@@ -348,26 +339,25 @@ body {
     font-size: .9em;
 }
 
-.contentArea h4{
+.contentArea h4 {
     color: #f39d1a;
     font-size: 1.2em;
     font-weight: bold;
 
 }
 
-.contentArea hr{
+.contentArea hr {
     border: 1px solid #f39d1a !important;
     width: 50px;
     text-align: left;
     margin-left: 5px;
 }
 
-.contentArea p{
+.contentArea p {
     color: rgb(71, 71, 71);
     font-size: 1.2em;
     /* padding-top:25px; */
 }
-
 
 /* END CONTENT AREA */
 
@@ -419,3 +409,71 @@ body {
 }
 
 /* END FOOTER AREA */
+
+
+/* PROJECT STYLING */
+
+.carousel-inner {
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.headerContainer ul li {
+    list-style-type: circle;
+    padding: 5px;
+}
+
+.pricingMain {
+    background-color: #0A0A79;
+    height: 200px;
+    text-align: center;
+}
+
+.pricingImage p {
+    color: white;
+    padding: 10px;
+}
+
+.pricingImage a img {
+    width: 30%;
+    padding-top: 30px;
+}
+
+.pricingcontent {
+    margin-left: 40px;
+}
+
+
+
+
+.imageContainer a img {
+    width: 100%;
+    margin: 20px; 
+    object-fit: cover;
+}
+
+.buttonContainer button {
+    background-color: rgba(253, 154, 16, 0.904);
+    border: none;
+    color: white;
+    padding: 18px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 12px 8px;
+    cursor: pointer;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.buttonContainer {
+    text-align: center;
+}
+
+/* END PROJECT STYLING */

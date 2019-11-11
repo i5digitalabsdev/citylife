@@ -2,8 +2,33 @@
 
 @font-face {
     font-family: "gotham";
-    src: url("../fonts/Gotham-Book.otf");
-    }
+    src: url("../fonts/Gotham-Light.otf");
+}
+
+@font-face {
+    font-family: "gothamLight";
+    src: url("../fonts/Gotham-Light.otf");
+}
+
+@font-face {
+    font-family: "gothamThin";
+    src: url("../fonts/Gotham-Thin.otf");
+}
+
+@font-face {
+    font-family: "gothamMedium";
+    src: url("../fonts/Gotham-Medium.otf");
+}
+
+@font-face {
+    font-family: "gothamUltra";
+    src: url("../fonts/Gotham-Ultra.otf");
+}
+
+@font-face {
+    font-family: "gothamNarrowBlack";
+    src: url("../fonts/GothamNarrow-Black.otf");
+}
 
 /* body{
     font-family: 'avenir', sans-serif;
@@ -12,8 +37,9 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'gotham' !important;
     /* font-family: 'Source Sans Pro', sans-serif; */
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif !important; */
 
 }
 
@@ -49,8 +75,9 @@ body {
     text-decoration: none !important;
     color: #fff !important;
     padding: 5px;
+    font-family: 'gothamLight';
     font-weight:  lighter;
-    font-size: 1em;
+    font-size: .9em;
     margin-left: 20px !important;
     transition: .3s;
 }
@@ -65,8 +92,6 @@ body {
 }
 
 
-
-
 /* END OF NAVBAR */
 
 
@@ -74,7 +99,7 @@ body {
 
 .content{
     position: absolute;
-    top: 30%;
+    top: 33%;
     left:5%;
     right:5%
 }
@@ -83,7 +108,8 @@ body {
     text-align: center;
     font-size: 3.3em;
     color: white;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
+    font-family: 'gothamMedium';
     font-weight: bold;
 }
 

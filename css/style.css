@@ -427,15 +427,6 @@ body {
 
 /* PROJECT STYLING */
 
-.carousel-inner {
-    width: 100%;
-    height: 400px;
-    background-position: center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 
 .headerContainer ul li {
     list-style-type: circle;
@@ -444,7 +435,7 @@ body {
 
 .pricingMain {
     background-color: #0A0A79;
-    height: 200px;
+    padding: 1% 0 1% 0;
     text-align: center;
 }
 
@@ -454,40 +445,56 @@ body {
 }
 
 .pricingImage a img {
-    width: 30%;
+    width: 50px;
+    height: 75px;
     padding-top: 30px;
 }
-
-.pricingcontent {
-    margin-left: 40px;
-}
-
 
 
 
 .imageContainer a img {
     width: 100%;
-    margin: 20px; 
-    object-fit: cover;
 }
 
-.buttonContainer button {
-    background-color: rgba(253, 154, 16, 0.904);
+.buttonContainer{
+    /* position: fixed; */
+    bottom: 50px;
+    right: 20%;
+    left: 20%;
+}
+
+.buttonContainer a {
+    background-color: rgb(253, 154, 16);
     border: none;
     color: white;
-    padding: 18px 35px;
+    padding: 13px 40px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 16px;
-    margin: 12px 8px;
     cursor: pointer;
-    border-radius: 50%;
     text-align: center;
+    border-radius: 50px;
+    transition: .4s;
 }
+
+.buttonContainer a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(197, 121, 14);
+
+}
+
 
 .buttonContainer {
     text-align: center;
+}
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #f39d1a !important;
+}
+
+button.owl-dot {
+    outline: none !important;
 }
 
 /* END PROJECT STYLING */

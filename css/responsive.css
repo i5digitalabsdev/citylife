@@ -241,5 +241,17 @@
     .bannerImage{
         height: 180px;
     }
+
+    .carousel-inner{
+        height: auto;
+    }
+
+    .gallery-img img{
+        margin-top: 15px;
+    }
+
+    .imageContainer{
+        margin-top: 20px;
+    }
     
 }

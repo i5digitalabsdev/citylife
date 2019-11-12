@@ -11,4 +11,13 @@ function animateMenu(menu){
     menu.classList.toggle('change')
 }
 
+$('.owl-two').owlCarousel({
+    loop:true,
+    items:2,
+    margin:5,
+    nav:false,
+    dots:true,
+    center:true
+})
+
 

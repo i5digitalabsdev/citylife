@@ -6,9 +6,9 @@
         background: white;
         width: 100%;
         top: 0;
-        height: 100vh;
+        height: 100%;
         z-index: 10;
-        position: absolute;
+        position: fixed;
     }
 
     .nav ul{
@@ -238,7 +238,7 @@
 
     }
 
-    .bannerImage{
+    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy{
         height: 180px;
     }
 

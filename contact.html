@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
@@ -24,21 +27,21 @@
                 <div class="col-md-2 col-xs-6 logo-container">
                     <a href="index.html"><img src="images/city_life1.png" alt="Logo"></a>
                 </div>  
-                
+                                
                 <!-- <span class="menu-icon2 hidden-md hidden-lg" id="menu-icon">
-                        <span class="btn btn-sm"><i class="fa fa-ellipsis-h fa-2x"></i></span>
+                <span class="btn btn-sm"><i class="fa fa-ellipsis-h fa-2x"></i></span>
                 </span> -->
-
+                
                 <div class="menu-icon hidden-md hidden-lg" id="menu-icon"  onclick="animateMenu(this)">
                     <div class="bar4"></div>
                     <div class="bar5"></div>
                     <div class="bar6"></div>
                 </div>
-
+                
                 <div class="col-md-10 navAbout" id="nav-bar">
                     <ul class="pull-right">
                         <li><a href="index.html"><b>Home</b></a></li>
-                        <li><a href="aboutus.html"><b style="color: #f39d1a;">About Us</b></a></li>
+                        <li><a href="aboutus.html"><b>About Us</b></a></li>
                         <li><a href="project.html"><b>Projects</b></a></li>
                         <li><a href="purchase.html"><b>Purchase</b></a></li>
                         <li><a href="#"><b>Rentals</b></a></li>
@@ -57,96 +60,74 @@
                 <div class="col-md-2 header">
                     <hr>
                 </div>
-
+            
                 <div class="col-md-6 headerContent">
-                    <h2><b>DESIGN, BUILD <br>& DELIVER</b></br></h2>
+                    <h2><b>CONTACT</b></br></h2>
                 </div>
             </div>
         </div>
     </div>
     <!-- End Header -->
 
-    <!-- Banner Image -->
+    <!-- Banner -->
     <div class=" bannerImage">
     </div>
-    <!-- End Banner Image -->
+    <!-- End Banner -->
 
-    <!-- Content Area -->
-    <div class="contentArea">
-        <div class="container headerContainer">
-            <div class="row">
-                <div class="col-md-2">
-                    <h4>About Us</h4>
-                    <hr>
-                </div>
-
-                <div class="col-md-10 ">
-                    <p>CityLife is a real estate developer focused on creating quality signature residential developments <br>
-                    in Accra. Over the past fifteen (15) years since inception we have evolved from just building one-off <br>
-                    homes to developing high quality residentiaal homes that are safe and contemporary in preferred locations.</p>
-
-                    <p>The Rapid increase in population has resulted in a large housing deficit in Ghana and at CityLife we are <br>
-                    poised to bridge the gap through innovative housing solutions. Working with experienced contractors,<br>
-                    architects and engineers we bring your dreaam into reality. We help residents enjoy a convenien t<br> 
-                    lifestyle within cities with state of the art amenities.</p>
-                </div>
+    <!-- Contact Form -->
+    <div class="container contactContainer">
+        <div class="row">
+            <div class="col-md-6">
+                <h3><b>CONTACT DETAILS</b></h3>
+                <br>
+            
+                <p>Office: 34 Senchi Street, Airport <br>
+                Residential, Accra</p>
+                <br><br>
+            
+                <p>Phone: +233 (0)20 467 7033 <br>
+                +233 (0)30 278 6726</p>
+                <br><br>
+            
+                <p>Email: info@citylifeestates.com</p>
             </div>
-        </div>
-        <br><br><br>
-
-        <div class="container imageContainer">
-            <div class="row">
-                <div class="col-md-2">
-                    <h4>Vision & <br>Mission</h4>
-                    <hr>
-                </div>
-                <div class="col-md-10">
-                    <p>Vision - Become the top-of-mind real estate 
-                    developer of choice within Ghana's cities.</p>
-
-                    <p>Mission - To deliver quality, attractive and 
-                    affordable luxury residential real estate 
-                    projects in the country.</p>
-                    <p>
-                        <img src="images/aboutBanner.jpg" class="img-responsive" alt="about image">
-                    </p>
-                </div>
+            
+            <div class="col-md-6">
+                <h3><b>SEND US A QUICK MESSAGE</b></h3>
+                <br>
+            
+                <form action="">
+                    <input type="text" id="fname" name="firstname" placeholder="Full name">
                     <br><br>
-                <!-- <div class="col-md-4">
-                    <img src="images/mission_banner.jpg" class="img-responsive" alt="about image">
-                </div> -->
-            </div>
-        </div>
-        <br><br><br>
-
-
-        <div class="container teamContainer">
-            <div class="row">
-                <div class="col-md-2 headerThree">
-                    <h4>Team</h4>
-                    <hr>
-                </div>
-
-                <div class="col-md-10 headerTwo">
-                    <p>We are made up of a group of experienced and competent players in the built environment.</p>
-                </div>
+            
+                    <input type="text" id="e-mail" name="email" placeholder="Email">
+                    <br><br>
+            
+                    <textarea name="sendMessage" id="sendMessage" placeholder="Message" height="170px"></textarea>
+                    <br><br>
+            
+                    <input type="submit" value="Send Message">
+                </form>
+                <br><br><br>
             </div>
         </div>
     </div>
-    <!-- End Content Area -->
+    <br>
+    <!-- End Contact Form -->
 
-    <!-- Footer Area -->
-    <div class="footerContainer">
-        <a href="#"><p>EXPLORE OUR SPACES</p></a>
+    <!-- Banner -->
+    <div class=" bannerImage">
     </div>
-
+    <!-- End Banner --> 
+    
+    <!-- Footer Area -->    
     <div class="footerMain">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 footerContent">
                     <p>2019 CityLife Estate. All rights reserved.</p>
                 </div>                                                    
-    
+                
                 <div class="col-md-6 footerLinks">
                     <ul>
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -157,11 +138,11 @@
             </div>
         </div>
     </div>
-    <!-- End Footer Area -->
-
+    <!-- End Footer Area -->  
+    
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-    
+
 </body>
 </html>

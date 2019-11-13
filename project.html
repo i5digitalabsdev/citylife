@@ -10,6 +10,11 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css"/>
+    <link rel="stylesheet" href="css/lightbox.css"/>
+    <link rel="stylesheet" href="css/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/owl.theme.default.min.css"/>
+
+
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- FONT AWESOME -->
@@ -28,10 +33,6 @@
                     <a href="index.html"><img src="images/city_life1.png" alt="Logo"></a>
                 </div>  
                     
-                <!-- <span class="menu-icon2 hidden-md hidden-lg" id="menu-icon">
-                <span class="btn btn-sm"><i class="fa fa-ellipsis-h fa-2x"></i></span>
-                </span> -->
-    
                 <div class="menu-icon hidden-md hidden-lg" id="menu-icon"  onclick="animateMenu(this)">
                     <div class="bar4"></div>
                     <div class="bar5"></div>
@@ -70,27 +71,24 @@
     <!-- End Header -->
 
     <!-- Carousel --> 
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-            <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-            </ol>
-          
+        <div>
             <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                  <img src="images/aboutBanner.jpg" alt="Los Angeles" style="width:100%;">
-                </div>
-          
+            <div class="owl-two owl-carousel owl-theme carousel-inner">
                 <div class="item">
-                  <img src="images/aboutBanner.jpg" alt="Chicago" style="width:100%;">
+                    <a href="images/aboutBanner.jpg" data-lightbox="image">
+                        <img src="images/aboutBanner.jpg" alt="Los Angeles" style="width:100%;">
+                     </a>
                 </div>
-              
                 <div class="item">
-                  <img src="images/aboutBanner.jpg" alt="New york" style="width:100%;">
-                </div>
+                        <a href="images/aboutBanner.jpg" data-lightbox="image">
+                            <img src="images/aboutBanner.jpg" alt="Los Angeles" style="width:100%;">
+                         </a>
+                    </div>
+                    <div class="item">
+                            <a href="images/aboutBanner.jpg" data-lightbox="image">
+                                <img src="images/aboutBanner.jpg" alt="Los Angeles" style="width:100%;">
+                             </a>
+                        </div>
             </div>
         </div>
     <!-- End Carousel -->
@@ -121,51 +119,39 @@
         </div>
         <br><br><br>
     
-        <div class="container imageContainer">
-            <div class="row">
-                <div class="col-md-2">
-                    <h4>Pricing</h4>
-                    <hr>
-                </div>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- End Content -->
 
     <!-- Pricing Area -->        
     <div class="pricingMain">
         <div class="container">
-            <div class="pricingImage">
-                <div class="col-md-2 pricingContent">
+            <div class="col-md-12 pricingImage">
+                <div class="col-md-1 hidden-xs-1"></div>
+                <div class="col-md-2 col-xs-6 pricingContent">
                     <a href="#"><img src="images/measure.png" alt="Home"></a>
-                    <p><b>Size</b></p>
-                    <p>47-194.5</p>
+                    <p><b>Size</b> <br>47-194.5</p>
                 </div>
                         
-                <div class="col-md-2 pricingcontent">
+                <div class="col-md-2 col-xs-6 pricingcontent">
                     <a href="#"><img src="images/bed.png" alt="Bedroom"></a>
-                    <p><b>Bedrooms</b></p>
-                    <p>2</p>
+                    <p><b>Bedrooms</b> <br>2</p>
                 </div>  
 
-                <div class="col-md-2 pricingcontent">
+                <div class="col-md-2 col-xs-6  pricingcontent">
                     <a href="#"><img src="images/bathtub.png" alt="Bathtub"></i></a>
-                    <p><b>Washroom</b></p>
-                    <p>2</p>
+                    <p><b>Washroom</b><br>2</p>
                 </div>  
 
-                <div class="col-md-2 pricingcontent">
+                <div class="col-md-2 col-xs-6  pricingcontent">
                     <a href="#"><img src="images/pool.png" alt="Pool"></a>
-                    <p><b>Pool</b></p>
-                    <p>1</p>
+                    <p><b>Pool</b><br>1</p>
                 </div>
 
-                <div class="col-md-2 pricingcontent">
+                <div class="col-md-2 col-xs-6  pricingcontent">
                     <a href="#"><img src="images/weightlifting.png" alt="Gym"></a>
-                    <p><b>Gym</b</p>
-                    <p>1</p>
+                    <p><b>Gym</b><br>1</p>
                 </div>  
+                <div class="col-md-1 col-xs-1"></div>
             </div>
         </div>
     </div>
@@ -173,49 +159,41 @@
 
     <!-- Gallery -->
     <div class="contentArea">
-        <div class="container headerContainer">
+        <div class="container">
             <div class="row">
                 <div class="col-md-2">
                     <h4>Gallery</h4>
                     <hr>
                 </div>
+                <div class="col-md-10 gallery-img">
+                    <div class="col-md-12" style="padding: 0;">
+                        <div class="col-md-4 col-xs-6">
+                            <a data-lightbox="gallery" href="images/aboutBanner.jpg">
+                                <img src="images/aboutBanner.jpg" class="img-responsive" alt="Gallery">
+                            </a>
+                        </div>
+
+                        <div class="col-md-4 col-xs-6">
+                            <a data-lightbox="gallery" href="images/aboutBanner.jpg">
+                                <img src="images/aboutBanner.jpg" class="img-responsive" alt="Gallery">
+                            </a>
+                        </div>
+
+                        <div class="col-md-4 col-xs-6">
+                            <a data-lightbox="gallery" href="images/aboutBanner.jpg">
+                                <img src="images/aboutBanner.jpg" class="img-responsive" alt="Gallery">
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- <br> -->
         </div>
     </div>
 
     <div class="container imageContainer">
-        <div class="row">
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-    
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-    
-            <div class="col-md-4">
-                <a href="#"><img src="images/gallery.PNG" alt="Gallery"></a>
-            </div>
-        </div>
-        <br><br>
-
+        
         <div class="buttonContainer">
-            <button>Buy Property</button>
+            <a href="#">Buy Property</a>
         </div>
     </div>
     <br><br><br><br>
@@ -247,6 +225,8 @@
 
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script src="js/custom.js"></script>
     
 </body>

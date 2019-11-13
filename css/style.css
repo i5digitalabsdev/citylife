@@ -501,7 +501,9 @@ body {
     padding-top: 30px;
 }
 
-
+.pricingcontent {
+    margin-left: 40px;
+}
 
 .imageContainer a img {
     width: 100%;
@@ -540,6 +542,71 @@ body {
     text-align: center;
 }
 
+/* END PROJECT STYLING */
+
+
+/* PURCHASE STYLING */
+
+.purchase {
+    margin-top: 30px;
+}
+
+.contentPurchase hr {
+    border: 0.5px solid #9b9797 !important;
+}
+
+.purchase #myCarousel {
+    object-fit: cover;
+    /* width: 60%; */
+    height: 180px;
+}
+
+.carousel-indicators {
+    padding-top: 300%;
+}
+
+.purchase button {
+    background-color: rgba(253, 154, 16, 0.904);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contentPurchase {
+    background-color: #f2f2f2;
+}
+
+/* END PURCHASE STYLING */
+
+
+/* CONTACT STYING */
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgba(253, 154, 16, 0.904);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.contactContainer {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 25px 40px;
+    margin-top: -85px !important;
+}
+
+/* END CONTACT STYING */
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #f39d1a !important;
 }

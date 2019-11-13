@@ -253,5 +253,9 @@
     .imageContainer{
         margin-top: 20px;
     }
+
+    .contentPurchase {
+        padding: 15px;
+    }
     
 }

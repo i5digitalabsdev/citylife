@@ -20,4 +20,12 @@ $('.owl-two').owlCarousel({
     center:true
 })
 
+$('.owl-one').owlCarousel({
+    loop:true,
+    items:1,
+    nav:false,
+    dots:true,
+    center:true
+})
+
 

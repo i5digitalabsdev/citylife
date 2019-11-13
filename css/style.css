@@ -42,10 +42,29 @@ body {
     /* font-family: 'Nunito', sans-serif !important; */
 }
 
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+select:focus,
+textarea {
+  font-size: 16px;
+}
+
 #main {
     width: 100%;
     height: 100vh;
-    background-image: url(.././images/bg-home.png);
+    background-image: url(.././images/bg-home.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -320,10 +339,7 @@ body {
 }
 
 .headerContent h2 {
-    /* margin-left: 20px !important; */
     color: #0A0A79 !important;
-    /* padding: 10px; */
-    /* float: right; */
     font-family: 'gothamMedium';
 }
 
@@ -501,10 +517,6 @@ body {
     padding-top: 30px;
 }
 
-.pricingcontent {
-    margin-left: 40px;
-}
-
 .imageContainer a img {
     width: 100%;
 }
@@ -526,7 +538,7 @@ body {
     font-size: 16px;
     cursor: pointer;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 6px;
     transition: .4s;
 }
 
@@ -548,11 +560,13 @@ body {
 /* PURCHASE STYLING */
 
 .purchase {
-    margin-top: 30px;
+    /* margin-top: 30px; */
+    /* border-bottom: 0.5px solid #dfdfdf !important; */
+
 }
 
 .contentPurchase hr {
-    border: 0.5px solid #9b9797 !important;
+    border-bottom: 0.5px solid #dfdfdf !important;
 }
 
 .purchase #myCarousel {
@@ -565,16 +579,46 @@ body {
     padding-top: 300%;
 }
 
-.purchase button {
+.property-brief a{
     background-color: rgba(253, 154, 16, 0.904);
     color: white;
-    padding: 12px 20px;
+    padding: 6px 15px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    font-size: .9em;
+    margin-top: 10px;
+    text-decoration: none;
+    transition: .3s;
 }
+
+.property-brief ul{
+    padding: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.property-brief ul li{
+    list-style-type: circle;
+}
+
+.property-brief a:hover{
+    background-color: transparent;
+    color: rgb(73, 72, 72);
+    border: 1px solid rgb(161, 161, 161);
+    text-decoration: none;
+
+}
+
+
 
 .contentPurchase {
     background-color: #f2f2f2;
+    padding: 50px;
+}
+
+.purchase{
+    padding-top: 45px;
 }
 
 /* END PURCHASE STYLING */
@@ -585,18 +629,39 @@ body {
 input[type=text], textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(230, 230, 230);
     margin-top: 6px;
     margin-bottom: 16px;
-    resize: vertical;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: .85em;
+    color: rgb(114, 114, 114);
 }
 
-input[type=submit] {
+
+input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid rgb(230, 230, 230);
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: .85em;
+    color: rgb(114, 114, 114);
+
+}
+
+button[type=submit] {
     background-color: rgba(253, 154, 16, 0.904);
     color: white;
     padding: 12px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    outline: none;
 }
 
 .contactContainer {
@@ -606,6 +671,11 @@ input[type=submit] {
     margin-top: -85px !important;
 }
 
+.contactContainer .fa{
+    color: rgba(109, 109, 109, 0.904);
+    margin-right: 10px;
+}
+
 /* END CONTACT STYING */
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
     background: #f39d1a !important;
@@ -613,6 +683,19 @@ input[type=submit] {
 
 button.owl-dot {
     outline: none !important;
+}
+
+.sale-now{
+    background: rgb(175, 175, 175);
+    padding: 5px 15px;
+    display: inline-block;
+    font-size: .6em;
+    color: white;
+    border-radius: 3px;
+}
+
+.single-prop-image{
+    margin-top: 15px;
 }
 
 /* END PROJECT STYLING */

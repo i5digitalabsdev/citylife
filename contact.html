@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>CityLife</title>
     <link rel="icon" href="images/city_life1.png">
@@ -40,12 +40,12 @@
                 
                 <div class="col-md-10 navAbout" id="nav-bar">
                     <ul class="pull-right">
-                        <li><a href="index.html"><b>Home</b></a></li>
-                        <li><a href="aboutus.html"><b>About Us</b></a></li>
-                        <li><a href="project.html"><b>Projects</b></a></li>
-                        <li><a href="purchase.html"><b>Purchase</b></a></li>
-                        <li><a href="#"><b>Rentals</b></a></li>
-                        <li><a href="contact.html"><b>Contact Us</b></a></li>
+                            <li><a href="index.html" >Home</a></li>
+                            <li><a href="aboutus.html">About Us</a></li>
+                            <li><a href="projects.html" >Projects</a></li>
+                            <li><a href="howtobuy.html">Purchase</a></li>
+                            <li><a href="#">Rentals</a></li>
+                            <li><a href="contact.html" class="active-link">Contact Us</a></li>
                     </ul>                        
                 </div>
             </div>
@@ -77,36 +77,40 @@
     <!-- Contact Form -->
     <div class="container contactContainer">
         <div class="row">
-            <div class="col-md-6">
-                <h3><b>CONTACT DETAILS</b></h3>
+            <div class="col-md-5">
+                <h4><b>CONTACT DETAILS</b></h4>
                 <br>
             
-                <p>Office: 34 Senchi Street, Airport <br>
-                Residential, Accra</p>
-                <br><br>
+                <p><span class="fa fa-map-pin"></span>  34 Royal Dummy Street, <br>
+                East Legon, Accra</p>
+                <br>
             
-                <p>Phone: +233 (0)20 467 7033 <br>
-                +233 (0)30 278 6726</p>
-                <br><br>
+                <p><span class="fa fa-phone"></span>  +233 (0)20 000 0000 /
+                +233 (0)30 000 0000</p>
+                <br>
             
-                <p>Email: info@citylifeestates.com</p>
+                <p><span class="fa fa-envelope-o"></span> info@cityliferealestategh.com</p>
+                <p><span class="fa fa-globe"></span> cityliferealestategh.com</p>
+                <br>
+
             </div>
             
-            <div class="col-md-6">
-                <h3><b>SEND US A QUICK MESSAGE</b></h3>
+            <div class="col-md-7">
+                <h4><b>SEND US A QUICK MESSAGE</b></h4>
                 <br>
             
-                <form action="">
-                    <input type="text" id="fname" name="firstname" placeholder="Full name">
-                    <br><br>
+                <form action="#">
+                    <input type="text"  name="firstname" placeholder="Full name">
+                    <br>
             
-                    <input type="text" id="e-mail" name="email" placeholder="Email">
-                    <br><br>
+                    <input type="email" name="email" placeholder="Email">
+                    <br>
             
-                    <textarea name="sendMessage" id="sendMessage" placeholder="Message" height="170px"></textarea>
-                    <br><br>
+                    <textarea name="sendMessage" id="sendMessage" placeholder="" rows="8" >I will like to enquire about ...</textarea>
+                    <br>
+                    <br>
             
-                    <input type="submit" value="Send Message">
+                    <button type="submit">Send Message</button>
                 </form>
                 <br><br><br>
             </div>
@@ -116,10 +120,13 @@
     <!-- End Contact Form -->
 
     <!-- Banner -->
-    <div class=" bannerImage">
+    <div class=" contactFooter">
     </div>
     <!-- End Banner --> 
-    
+    <div class="footerContainer">
+            <a href="projects.html"><p>EXPLORE OUR SPACES</p></a>
+        </div>
+
     <!-- Footer Area -->    
     <div class="footerMain">
         <div class="container">

@@ -68,6 +68,7 @@ textarea {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 /* END OF GENERAL STYLING */
@@ -95,7 +96,7 @@ textarea {
     padding: 5px;
     font-family: 'gothamLight';
     font-weight:  lighter;
-    font-size: .9em;
+    font-size: .8em;
     margin-left: 20px !important;
     transition: .3s;
 }
@@ -285,7 +286,7 @@ textarea {
 }
 
 .navAbout ul {
-    margin-top: 10px;
+    padding: 10px 0 10px 0;
 }
 
 .navAbout ul li {
@@ -374,6 +375,14 @@ textarea {
 
 .howtobuy{
     background-image: url('../images/howtobuy.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 250px;
+}
+
+.rentalsManagement{
+    background-image: url('../images/rentals.jpg');
     background-attachment: fixed;
     background-position: center;
     background-size: cover;

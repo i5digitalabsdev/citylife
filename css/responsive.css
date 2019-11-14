@@ -6,9 +6,9 @@
         background: white;
         width: 100%;
         top: 0;
-        height: 100%;
         z-index: 10;
-        position: fixed;
+        height: 100vh;
+        position: absolute;
     }
 
     .nav ul{
@@ -49,7 +49,7 @@
     .navAbout ul{
         float: none !important;
         padding: 0 !important;
-        margin-top: 20%;
+        margin-top: 31%;
     }
     
     .navAbout ul li {
@@ -62,7 +62,7 @@
         color: rgb(12, 11, 11) !important;
         padding: 12px 10px;
         /* font-weight:  lighter; */
-        font-size: .9em;
+        font-size: .8em;
         margin-left: 20px !important;
         transition: .3s;
         text-align: center;
@@ -238,8 +238,11 @@
 
     }
 
-    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy{
-        height: 180px;
+    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy {
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 130px;
     }
 
     .carousel-inner{

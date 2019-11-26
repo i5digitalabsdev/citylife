@@ -690,6 +690,14 @@ button[type=submit] {
     background: #f39d1a !important;
 }
 
+.owl-theme .owl-dots{
+    margin-top: -30px !important;
+    position: absolute !important;
+    z-index: 80;
+    left: 20%;
+    right: 20%;
+}
+
 button.owl-dot {
     outline: none !important;
 }

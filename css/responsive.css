@@ -238,7 +238,7 @@
 
     }
 
-    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy {
+    .bannerImage, .constructionBanner, .propertyManagement, .howtobuy, .contactImage {
         background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
@@ -259,6 +259,10 @@
 
     .contentPurchase {
         padding: 15px;
+    }
+
+    .nav ul li ul{
+        display: none;
     }
     
 }

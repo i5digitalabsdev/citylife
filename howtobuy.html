@@ -9,13 +9,14 @@
     <link rel="icon" href="images/city_life1.png">
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css"/>
     <link rel="stylesheet" href="css/responsive.css"/>
     <!-- BOOTSTRAP -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- FONT AWESOME -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
+<body style="background: #f4f4f4;">
 
     <!-- Start Nav -->
     <div class="navContainer">
@@ -39,7 +40,16 @@
                     <ul class="pull-right">
                             <li><a href="index.html" >Home</a></li>
                             <li><a href="aboutus.html">About Us</a></li>
-                            <li><a href="projects.html" >Projects</a></li>
+                            <li><a href="projects.html" >Projects</a>
+                                <ul class="animated fadeInUp">
+                                        <li><a href="canyon.html">Canyon Villa</a></li>
+                                        <li><a href="summers.html">Summers Place</a></li>
+                                        <li><a href="tachie-woods.html">Tachie Woods</a></li>
+                                        <li><a href="battersea-sqaure.html">Battersea Square</a></li>
+                                        <li><a href="citadel-heights.html">Citadel Heights</a></li>
+                                        <li><a href="sonder-landing.html">Sonder Landing</a></li>
+                                </ul>
+                            </li>
                             <li><a href="howtobuy.html" class="active-link">Purchase</a></li>
                             <li><a href="rentals.html">Rentals</a></li>
                             <li><a href="contact.html">Contact Us</a></li>
@@ -72,18 +82,17 @@
     <!-- End Banner Image -->
 
     <!-- Content Area -->
-    <div class="contentArea">
+    <div class="contentArea container">
         <div class="container headerContainer">
             <div class="row">
-                    <h3 style="text-align: center;"><b>Find out which Payment Terms suits you.</b></h3>
+                    <h4 style="text-align: center;"><b>Find out which Payment Terms suits you.</b></h4>
                     <br>
                     <br>
-                <div class="col-md-2">
-                    <h4><strong>Cash Buyers</strong></h4>
-                    <hr>
-                </div>
-
-                <div class="col-md-10 " style="margin-top: 8px;">
+            </div>
+            <div class="row">
+                <div class="col-md-6" style="padding-right: 35px;">
+                        <h3><strong>Cash Buyers</strong></h3>
+                        <hr>
                         <ul>
                             <li>$5,000 reservation fee</li> 
                             <li>21 days to sign and return Sale and Purchase Agreement (“SPA”) and pay 25% of the purchase price</li>
@@ -91,31 +100,23 @@
                             <li>15% of the purchase price minus reservation fee on completion of the apartment.</li>
                         </ul>
                 </div>
-            </div>
-        </div>
-        <br>
 
-        <div class="container imageContainer">
-            <div class="row">
-                <div class="col-md-2">
-                    <h4><strong>Mortgage Buyers</strong></h4>
-                    <hr>
-                </div>
-                
-                <div class="col-md-10" style="margin-top: 8px;">
+                <div class="col-md-6" style="padding-right: 35px;">
+                        <h3><strong>Mortgage Buyers</strong></h3>
+                        <hr>
                         <ul>
                             <li>$5,000 reservation fee</li> 
                             <li>21 days to sign and return Sale and Purchase Agreement (“SPA”) and pay 25% of the purchase price</li>
                             <li>2 quarterly installments of 12.5% of the purchase price</li>
                             <li>Mortgage disbursement on completion of the apartment.</li>
                         </ul>
-                        <br>
-                        <br>
-
-                        <h3 style="text-align: center; line-height: 39px;">
-                            <b>Contact us for further information on how to reserve a CityLife Real Estate Development project.</b>
-                        </h3>
                 </div>
+            </div>
+            <br>
+            <br>
+            <div class="row text-center">
+                <h4>Contact us for further information on how to reserve a CityLife Real Estate Development project.
+                </h4>
             </div>
         </div>
         <br>
@@ -127,23 +128,15 @@
             <a href="projects.html"><p>EXPLORE OUR SPACES</p></a>
         </div>
 
-    <div class="footerMain">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 col-xs-12 footerContent">
-                    <p>2019 CityLife Estate. All rights reserved.</p>
-                </div>                                                    
-    
-                <div class="col-md-6 col-xs-12 footerLinks">
-                    <ul>
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    </ul>                        
+        <div class="footerMain">
+                <div class="container">
+                    <div class="row">
+                        <div class="footerContent">
+                            <p>2019 Citylife Real Estate. All rights reserved.</p>
+                        </div>                                                    
+                    </div>
                 </div>
             </div>
-        </div>
-    </div>
     <!-- End Footer Area -->
 
     <script src="js/jquery.js"></script>

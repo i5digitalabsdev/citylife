@@ -264,5 +264,9 @@
     .nav ul li ul{
         display: none;
     }
+
+    .property-brief h4{
+        padding: 15px 0 15px 0;
+    }
     
 }

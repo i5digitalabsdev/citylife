@@ -417,8 +417,9 @@ textarea {
 
 .aboutHeader {
     /* margin-top: 50px; */
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     background: white;
+    padding-bottom: 25px;
 }
 
 .header {
@@ -504,11 +505,16 @@ textarea {
 
 .contentArea {
     padding: 3% 20% 6% 20%;
-    font-size: .9em;
+    font-size: .8em;
     /* -webkit-box-shadow: 0px 4px 20px -4px rgb(218, 218, 218);
     -moz-box-shadow: 0px 4px 20px -4px rgb(218, 218, 218);
     box-shadow: 0px 4px 20px -4px rgb(218, 218, 218); */
-    background: #fff;
+    background: white;
+}
+
+.galleryContainer{
+    background: white;
+    padding: 3% 20% 6% 20%;
 }
 
 .contentArea h3 {
@@ -517,6 +523,32 @@ textarea {
     font-weight: bold;
     font-family: gothamMedium;
 }
+
+.headerContent h2{
+    text-transform: uppercase;
+}
+
+/* .contentArea h4 {
+    color: #f39d1a;
+    font-size: 1.6em;
+    font-weight: bold;
+    font-family: gothamMedium;
+} */
+
+.galleryContainer h3{
+    color: #f39d1a;
+    font-size: 1.4em;
+    font-weight: bold;
+    font-family: gothamMedium;
+}
+
+.galleryContainer hr{
+    border: 0.5px solid #f39d1a !important;
+    width: 60px;
+    text-align: left;
+    margin-left: 5px;
+}
+
 
 /* .contentArea h3{
     font-size: 1.4em;
@@ -536,9 +568,11 @@ textarea {
     color: rgb(71, 71, 71);
     font-size: 1.2em;
     line-height: 26px;
+    margin-top: 5px;
 
     /* padding-top:25px; */
 }
+
 
 .contentArea ul li{
     font-size: 1.2em;
@@ -619,12 +653,12 @@ textarea {
 }
 
 .contentArea ul {
-    padding: 0 !important;
+    padding: 15px !important;
 }
 
 .pricingMain {
     background-color: #0A0A79;
-    padding: 1% 0 1% 0;
+    /* padding: 1% 0 1% 0; */
     text-align: center;
 }
 
@@ -643,12 +677,6 @@ textarea {
     width: 100%;
 }
 
-.buttonContainer{
-    /* position: fixed; */
-    bottom: 50px;
-    right: 20%;
-    left: 20%;
-}
 
 .buttonContainer a {
     background-color: rgb(253, 154, 16);
@@ -674,6 +702,7 @@ textarea {
 
 .buttonContainer {
     text-align: center;
+    margin-top: 50px;
 }
 
 /* END PROJECT STYLING */
@@ -714,6 +743,10 @@ textarea {
     transition: .3s;
 }
 
+.property-brief h4{
+    text-transform: uppercase;
+}
+
 .property-brief ul{
     padding: 0;
     margin-left: 15px;
@@ -722,6 +755,10 @@ textarea {
 
 .property-brief ul li{
     list-style-type: circle;
+}
+
+.headerContainer{
+    padding: 0 4% 0 5%;
 }
 
 .property-brief a:hover{
@@ -861,6 +898,12 @@ button.owl-dot {
     background: none;
     border: none;
     z-index: 100;
+}
+
+@media (min-width: 992px) {
+.container {
+    /* width: 970px !important; */
+}
 }
 
 

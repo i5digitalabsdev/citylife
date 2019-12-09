@@ -745,6 +745,8 @@ textarea {
 
 .property-brief h4{
     text-transform: uppercase;
+    font-family: gothamMedium;
+
 }
 
 .property-brief ul{
@@ -860,6 +862,7 @@ button.owl-dot {
     font-size: .6em;
     color: white;
     border-radius: 3px;
+    text-transform: uppercase;
 }
 
 .single-prop-image{

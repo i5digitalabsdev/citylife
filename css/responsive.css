@@ -262,7 +262,7 @@
     }
 
     .nav ul li ul{
-        display: none;
+        display: none !important;
     }
 
     .property-brief h4{
